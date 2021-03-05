@@ -84,7 +84,8 @@ for i in arr:
 if p!=10000000000:
     ANSWER.append(p)
     ANSWER.append(0)
-print(len(ANSWER))
+XX=int(len(ANSWER)/2)
+print(XX)
 for i in ANSWER:
     print(i,end=" ")
 
